@@ -1,0 +1,31 @@
+.navBar {
+  position: relative;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2c034a;
+  height: 100px;
+  
+}
+
+.navBar ul {
+  list-style-type: none;
+  display: flex;
+  
+  padding: 0;
+}
+.navBar li {
+  margin-right: 20px;
+}
+
+.navBar a {
+  color: #dddddd;
+}
+
+.navBar img{
+
+    width: 30px;
+    height: 30px;
+
+}

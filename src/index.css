@@ -1,0 +1,14 @@
+body {
+  background-color: #333333;
+  margin: 0;
+}
+
+
+.scroll-container{
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px;
+    height: 100vh;
+    
+
+}
