@@ -7,19 +7,20 @@ import background from "./assets/background.jpg";
 function App() {
   return (
     <>
-      <Header />
-      <div
-        style={{
-          backgroundImage: `url(${background})`,
-          backgroundSize: "cover",
-          
-        }}
-      >
-        <main className="scroll-container">
-          <AboutMe/>
+      
+
+      <main className="scroll-container">
+        <Header />
+        <div
+          style={{
+            backgroundImage: `url(${background})`,
+            backgroundSize: "cover",
+          }}
+        >
+          <AboutMe />
           <ProjectSection />
-        </main>
-      </div>
+        </div>
+      </main>
     </>
   );
 }

@@ -4,7 +4,14 @@ import "./Header.css";
 export default function Header() {
   return (
     <nav className="navBar">
-      <a style={{ fontFamily: "arial", paddingLeft: "20px", fontSize: "30px",  fontWeight: "bold"}}>
+      <a
+        style={{
+          fontFamily: "arial",
+          paddingLeft: "20px",
+          fontSize: "30px",
+          fontWeight: "bold",
+        }}
+      >
         Welcome!
       </a>
       <ul>
@@ -14,6 +21,7 @@ export default function Header() {
               src="https://static-exp1.licdn.com/sc/h/eahiplrwoq61f4uan012ia17i"
               alt="LinkedIn Logo"
             />
+            
           </a>
         </li>
         <li>

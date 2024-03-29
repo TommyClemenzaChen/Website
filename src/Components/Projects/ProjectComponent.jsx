@@ -4,7 +4,7 @@ import "./Project.css";
 
 export default function ProjectComponent(props) {
   return (
-    <div className="project">
+    <div className="project-card">
       <img
         src={props.image}
         alt="project image"

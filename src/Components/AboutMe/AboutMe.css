@@ -1,3 +1,17 @@
-.custom{ 
-    background-image: url('https://images.unsplash.com/photo-1612838320303-4b3b3b3b3b3b'); 
+.custom {
+  background-image: url("https://images.unsplash.com/photo-1612838320303-4b3b3b3b3b3b");
+}
+
+.aboutMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 0 100px;
+  margin-bottom: 200px;
+  
 }

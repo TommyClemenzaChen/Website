@@ -3,12 +3,7 @@ body {
   margin: 0;
 }
 
-
-.scroll-container{
-    flex: 1;
-    overflow-y: auto;
-    padding: 20px;
-    height: 100vh;
-    
-
+.scroll-container {
+  overflow-y: scroll;
+  
 }
